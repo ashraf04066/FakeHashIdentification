@@ -36,3 +36,5 @@ Description of Features:
 4. avg_price_neighbors: In case the previous two features are helpful in classifying good and bad addresses, this feature should also be helpful. The intuition is that the average price of an attacked transaction should differ from that of a non-attacked transaction if price of attacked address and neighbors of attacked transaction vary from those of non-attacked addresses and transactions.
 5. month and day: If it happens that bad addresses are more frequent for some specific dates compared to some other dates, knowing the transaction dates of each address is supposed to improve the classification accuracy of the model.
 6. is_bad_address: This is the label of addresses indicating whether good or bad address.
+
+** tesing purpose **
